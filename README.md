@@ -26,12 +26,12 @@ A **Django** Todo application (with optional **Django REST Framework**) built ar
 
 ## Overview
 
-This repository contains a minimal Todo app implemented with Django. It separates concerns into two Django apps:
+This repository contains a minimal Todo app implemented with Django Rest framework. It separates concerns into two Django apps:
 
 * `accounts`: user management (optionally a custom user model).
 * `tasks`: CRUD for tasks (todos) and related logic.
 
-> The exact URLs and serializers may differ based on your implementation. Adjust this README to match your code if needed.
+
 
 ---
 
@@ -59,7 +59,7 @@ This repository contains a minimal Todo app implemented with Django. It separate
 * `pip` and (recommended) `virtualenv`
 * A running local PostgreSQL server
 
-> This guide does **not** use Docker. If you prefer containers, you can add Docker later, but it is intentionally excluded here.
+
 
 ---
 
@@ -88,7 +88,7 @@ cortexsys_todo/
 
 ---
 
-## Quickstart (Local, no Docker)
+## Quickstart (Local)
 
 1. Create and activate a virtual environment
 
